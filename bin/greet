@@ -2,3 +2,12 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+<<<<<<< HEAD
+=======
+
+require_relative "../lib/greeting.rb"
+
+puts "Hello #{name}. It's nice to meet you.".
+name =gets.chomp
+greeting(name)
+>>>>>>> d28187d4cd086c369d0912a5dfb4783a66df25a3
